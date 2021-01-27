@@ -1,0 +1,39 @@
+#drum-machine {
+  background-color: #0061d1;
+  border-radius: 0.5rem;
+  margin: 1rem auto;
+  min-width: 24rem;
+  padding: 1rem;
+  width: 50%;
+}
+
+#title {
+  color: white;
+  text-align: center;
+  padding: 0.8rem 0;
+}
+
+#display {
+  background-color: gray;
+  border-radius: 0.5rem;
+  color: #f7eb46;
+  font-weight: 900;
+  text-align: center;
+  margin: 1rem auto;
+  padding: 0.5rem 0;
+  width: 80%;
+}
+
+#pads {
+  background-color: #acacac;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  padding: 0 0 0.5rem 0.5rem;
+}
+
+.drum-pad {
+  height: 7rem;
+  margin: 0 auto;
+  width: 7rem;
+}
